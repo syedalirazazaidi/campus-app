@@ -1,0 +1,9 @@
+export const COMPANY_FORM = 'COMPANY_FORM';
+export const STUDENT_FORM = 'STUDENT_FORM';
+export const GET_DATA = {
+   GET_COMPANY_DATA: 'GET_COMPANY_DATA',
+   GET_STUDENT_DATA: 'GET_STUDENT_DATA'
+}
+export const COMPANY_ID='COMPANY_ID'
+
+

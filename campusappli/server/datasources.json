@@ -1,0 +1,23 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "campusDB": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "",
+    "database": "",
+    "password": "",
+    "name": "campusDB",
+    "user": "",
+    "useNewUrlParser": true,
+    "connector": "mongodb"
+  },
+  "uploads": {
+    "name": "uploads",
+    "connector": "loopback-component-storage",
+    "provider": "filesystem",
+    "root": "./storage"
+  }
+}

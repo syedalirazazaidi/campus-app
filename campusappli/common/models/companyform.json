@@ -1,0 +1,26 @@
+{
+  "name": "companyform",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "companyName": {
+      "type": "string",
+      "required": true
+    },
+    "jobDescr": {
+      "type": "string",
+      "required": true
+    },
+    "cgpa": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
